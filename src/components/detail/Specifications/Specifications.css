@@ -1,0 +1,35 @@
+.technical-content {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 60%;
+}
+
+.technical-content-item {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 8px 12px; */
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 0;
+}
+
+.technical-content li:nth-child(even) {
+    background-color: rgba(242, 242, 242, 0.5);
+}
+
+.technical-content-item p {
+    font-weight: 600;
+    background-color: #f2f2f2;
+    padding: 10px;
+
+    width: 30%;
+    border-bottom: 1px solid #fff;
+}
+
+.technical-content-item span {
+    width: 50%;
+    padding: 8px 12px;
+    text-transform: capitalize;
+}

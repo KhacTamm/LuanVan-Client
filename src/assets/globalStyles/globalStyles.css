@@ -1,0 +1,152 @@
+:root {
+    --color-background: #f5f5fa;
+    --color-background_start: #5983fc;
+
+    --color-button-discount: rgb(255, 42, 86);
+    --color-btn: #cd4e5c;
+    --color-hover-btn: rgba(155, 178, 224, 0.4);
+
+    /* ----------------------------------------------------------- */
+
+    --color-header-background: rgba(8, 123, 57, 0.1);
+    --color-primary-background: rgb(109, 121, 181);
+    --color-primary-line-background: rgba(196, 142, 0, 0.6);
+    --color-line-background: rgb(70, 130, 180);
+    --color-second: rgb(214, 219, 231);
+
+    --color-scrolltotop: #cd4e5c;
+    --color-button-buy: #cd4e5c;
+    --color-second-background: #cd4e5c;
+
+    --color-chat: rgb(109, 121, 181);
+
+    --color-hover-background: #feefdd;
+    --color-hover: rgb(244, 124, 132);
+    --color-active: rgb(8, 123, 57);
+
+    --admin-create: #4682b4;
+
+    --color-text: #727272;
+    --color-text-active: rgb(109, 121, 181);
+    --color-text-light: #555;
+
+    --color-btn: #6d79b5;
+
+    --color-white: #fff;
+    --color-ededed: #ededed;
+    --color-box-shadow: #0000001a;
+
+    /* //default layout */
+    --search-heigh: 45px;
+    --search-width: 550px;
+}
+/* --------------------------------------------Front------------------------------------------------- */
+
+/* @font-face {
+    font-family: 'Roboto-Medium';
+    src: ('/');
+    src: url('../Roboto-fonts/Roboto-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: ('/');
+    src: url('../Roboto-fonts//Roboto-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../Roboto-fonts//Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../Roboto-fonts//Roboto-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../Roboto-fonts//Roboto-Light.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    font-family: 'Montserrat', cursive;
+    overflow-y: unset;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* ----------------------------App----------------------------- */
+.App {
+    background-color: var(--color-background);
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.avatar-customer {
+    position: relative;
+    line-height: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background-color: rgb(244, 246, 248);
+}
+
+.avatar-customer img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

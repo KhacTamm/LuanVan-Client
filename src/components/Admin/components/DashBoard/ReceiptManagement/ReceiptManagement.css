@@ -1,0 +1,39 @@
+.receipt-management_progress svg {
+    font-size: 2rem;
+}
+
+.receipt-management_title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+
+    color: var(--color-primary-background);
+}
+
+.receipt-management tr {
+    border-bottom: 1px solid #eee;
+}
+
+.receipt-management tr td {
+    padding: 10px 0;
+}
+
+.receipt-management_progress p {
+    margin: 0 6px;
+    width: 160px;
+}
+
+.receipt-management_progress {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.progress {
+    flex: 1;
+}
+
+.total-receipt {
+    margin-left: 12px;
+}

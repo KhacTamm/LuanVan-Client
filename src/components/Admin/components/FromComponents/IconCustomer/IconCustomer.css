@@ -1,0 +1,25 @@
+.icon {
+    cursor: pointer;
+    padding: 0;
+}
+
+.icon svg {
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #6b6b6b;
+    cursor: pointer;
+}
+
+.delete-product:hover svg {
+    border-radius: 50%;
+    color: rgb(223, 28, 28);
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.update-product:hover svg {
+    color: var(--color-primary-background);
+    transform: scale(1.2);
+    font-weight: 600;
+    transition: 0.3s;
+}

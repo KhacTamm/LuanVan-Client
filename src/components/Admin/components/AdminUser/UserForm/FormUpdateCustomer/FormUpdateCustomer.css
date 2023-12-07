@@ -1,0 +1,12 @@
+.list-address-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list-address-admin_item {
+    padding-bottom: 4px;
+}

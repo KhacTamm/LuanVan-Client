@@ -1,0 +1,24 @@
+.ant-modal {
+    min-width: 250px !important;
+}
+
+.ant-modal .ant-modal-content {
+    min-height: 200px;
+    /* width: 440px; */
+    /* margin-left: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ant-modal-body .modal-content {
+    font-size: 1.8rem;
+}
+
+.ant-modal .ant-modal-footer {
+    margin-top: 30px;
+}
+
+.ant-btn {
+    height: 40px;
+}

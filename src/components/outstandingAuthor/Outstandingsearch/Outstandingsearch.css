@@ -1,0 +1,19 @@
+.outstandingsearch {
+    margin: 32px 0;
+}
+
+.outstanding_author-item {
+    width: 100%;
+}
+
+.outstanding_author-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: var(--color-primary-background);
+}
+
+.outstandingsearch .title_listProduct {
+    color: var(--color-primary-background);
+}

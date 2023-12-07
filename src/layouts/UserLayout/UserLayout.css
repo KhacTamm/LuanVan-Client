@@ -1,0 +1,28 @@
+.account_user_card {
+    margin-top: 20px;
+    display: flex;
+    padding: 1rem;
+}
+
+.account_content {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: white;
+    box-shadow: 0 0 12px var(--color-box-shadow);
+}
+
+.account_title {
+    padding: 12px;
+    border-bottom: 1px solid var(--color-box-shadow);
+}
+
+.account_title span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}

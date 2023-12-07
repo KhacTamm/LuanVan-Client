@@ -1,0 +1,10 @@
+.ant-tabs-tab-btn {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+:where(.css-dev-only-do-not-override-j0nf2s).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--color-text-active);
+}

@@ -1,0 +1,232 @@
+.detail-info-slide {
+    width: 40%;
+}
+
+.detail-info-slide-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 25px;
+}
+
+.detail-info-slide-image img {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.detail-info-right {
+    padding-left: 40px;
+    flex: 1;
+}
+
+.detail-info-right-price {
+    border-radius: 6px;
+    padding: 6px 0;
+    margin-top: 24px;
+}
+
+.detail-title {
+    text-align: left;
+    padding: 14px 0 0 0;
+    border-bottom: 1px solid var(--color-box-shadow);
+}
+
+.detail-title h2 {
+    font-size: 2.4rem;
+    font-weight: 650;
+    color: var(--text-color);
+}
+
+.product-publisher {
+    font-size: 1.8rem;
+    padding-top: 2px;
+}
+
+.detail-title .listproduct-product-star {
+    line-height: 1rem;
+    margin: 18px 0;
+}
+
+.price-old-box {
+    display: flex;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.saleprice {
+    font-weight: 600;
+    color: #e11b1e;
+    font-size: 3rem;
+}
+
+.old-price {
+    display: flex;
+    position: relative;
+    top: 2px;
+}
+
+.old-price .price {
+    text-decoration: line-through;
+    color: rgb(118, 118, 118);
+    font-size: 2.2rem;
+}
+
+.discount_detail-item {
+    background-color: rgb(205, 76, 91);
+    padding: 2px 18px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 24px;
+}
+
+.discount_detail-item p {
+    color: #fff;
+}
+
+.detail-qty-addtocart {
+    margin: 15px 0 35px 0;
+    display: flex;
+    align-items: center;
+}
+
+.detail-qty_text {
+    font-size: 1.8rem;
+    margin: 16px 0;
+    color: rgb(117, 117, 117);
+}
+
+.detail-qty-addtocart .button-add-cart {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+
+    border: 2px solid #e0e0e0e0;
+    border-radius: 20px;
+}
+
+.detail-qty-addtocart .button-add-cart li {
+    border-radius: 0 !important;
+    width: 42px;
+    height: 42px;
+    line-height: 40px;
+    /* border: 1px solid #eee;
+    border-radius: 6px; */
+    text-align: center;
+    color: #3c3d41;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+.btn-decrease {
+    border-right: 2px solid #e0e0e0e0;
+}
+
+.btn-increase {
+    border-left: 2px solid #e0e0e0e0;
+}
+
+.detail-qty-addtocart .button-add-cart .qty {
+    font-size: 1.8rem;
+    line-height: 45px;
+}
+
+.detail-qty-addtocart .button-add-cart li:first-child {
+    font-size: 3.2rem;
+}
+
+.detail-qty-addtocart .button-add-cart li:last-child {
+    font-size: 2.5rem;
+}
+
+.detail-info-right-buy {
+    display: flex;
+    width: 100%;
+}
+
+.detail-info-right-buy-now .button_buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid var(--color-btn);
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    width: 250px;
+    height: 55px;
+    line-height: 43px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-cart {
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    color: var(--color-btn);
+}
+
+.btn-buy {
+    margin-left: 30px;
+    background: linear-gradient(to bottom, rgb(136, 151, 221), rgb(109, 121, 181));
+    color: #fff;
+}
+
+.detail-info-right-buy-now .btn-cart:hover {
+    background: linear-gradient(to right top, rgb(136, 151, 221), rgb(109, 121, 181));
+    color: #fff;
+    text-decoration: none;
+}
+
+.detail-info-right-buy-now .btn-buy:hover {
+    background: #fff;
+    color: var(--color-btn);
+    text-decoration: none;
+}
+
+.detail-info-right-buy-installment {
+    display: flex;
+}
+
+.detail-info-right-buy-installment a {
+    background: #277cea;
+    border: solid 1px #1d72e0;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 5px;
+    line-height: 18px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.detail-info-right-buy-installment a:hover {
+    background: #fff;
+    color: #277cea;
+    text-decoration: none;
+}
+
+.detail-info-right-buy-installment a:nth-child(2) {
+    margin-left: 5px;
+}
+
+.quantity-sale {
+    position: relative;
+    padding-left: 40px;
+    font-size: 1.7rem;
+    color: rgb(133, 135, 128);
+}
+
+.quantity-sale::before {
+    content: '';
+    position: absolute;
+    height: 20px;
+    border-right: 1px solid rgb(133, 135, 128);
+    left: 18px;
+}

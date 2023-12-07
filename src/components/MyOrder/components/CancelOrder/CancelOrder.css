@@ -1,0 +1,13 @@
+.all-myorder-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px 12px;
+}
+
+.cancle-lable {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-primary-background);
+    text-transform: capitalize;
+}

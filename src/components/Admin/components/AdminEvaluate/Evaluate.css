@@ -1,0 +1,104 @@
+.list_evaluate {
+    position: relative;
+    margin-top: 12px;
+    overflow: auto;
+    height: 560px;
+    overflow: auto;
+}
+
+.list_evaluate::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.list_evaluate::-webkit-scrollbar {
+    width: 8px;
+}
+
+.list_evaluate::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--color-primary-background);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.list_evaluate table {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.list_evaluate table th {
+    color: var(--color-primary-background);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 0;
+    min-width: 30px;
+}
+
+.list_evaluate table th:first-child {
+    padding: 0.5rem 10px;
+}
+
+.list_evaluatetable td:nth-child(2) {
+    padding: 22px 85px;
+}
+
+.list_evaluate table td {
+    font-size: 16px;
+    padding: 12px 0;
+    border-top: 1px solid #eee;
+}
+
+.reply-admin-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 80px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 16px 16px 0 0;
+}
+
+.image-product-evaluate img {
+    width: 85px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.modal-reply-rate-user {
+    display: flex;
+    align-items: center;
+}
+
+.modal-reply-rate-user_in4 {
+    margin-left: 15px;
+}
+
+.modal-reply-rate-user-reply {
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+}
+
+.modal-reply-rate-user-reply::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.modal-reply-rate-user-reply::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-reply-rate-user-reply::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--color-primary-background);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.modal-reply-rate-user-reply .modal-reply-rate-user_replay-in4 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 24px;
+    margin-top: 16px;
+    padding: 12px 24px;
+    border-top: 1px solid #eee;
+}

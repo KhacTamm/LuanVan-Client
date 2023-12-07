@@ -1,0 +1,14 @@
+.dashboard-middle-chart {
+    /* background-color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 0 12px var(--color-box-shadow); */
+}
+
+.dashboard-middle-chart_title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--color-primary-background);
+    text-transform: uppercase;
+}

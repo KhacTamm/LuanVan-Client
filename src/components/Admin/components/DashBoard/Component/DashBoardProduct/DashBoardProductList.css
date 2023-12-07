@@ -1,0 +1,38 @@
+.dashboard-product-list {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.dashboard-product-list_col-1 .dashboard-product-list_col-1-image {
+    width: 60px;
+}
+
+.dashboard-product-list_col-2 {
+    margin-left: 12px;
+    font-size: 1.6rem;
+}
+
+.dashboard-product-list_col-2_name {
+    max-height: 50px;
+    display: inline-block;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.dashboard-product-list_col-2_price {
+    font-size: 1.4rem;
+    padding: 2px 0;
+}
+
+.dashboard-product-list_col-2_price.high-price {
+    text-decoration: line-through;
+    color: rgb(154, 154, 154);
+}

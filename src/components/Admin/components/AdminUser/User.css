@@ -1,0 +1,4 @@
+.order-user-item {
+    cursor: pointer;
+    color: var(--color-primary-background);
+}

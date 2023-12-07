@@ -1,0 +1,15 @@
+.header_filter {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(214, 219, 231);
+    /* margin: 12px 0; */
+    padding: 6px 0;
+    align-items: flex-end;
+}
+
+.title_filter {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--color-primary-background);
+}

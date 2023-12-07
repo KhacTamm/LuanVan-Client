@@ -1,0 +1,28 @@
+.form-voucher-setting {
+    margin: 1rem;
+}
+
+.form-voucher-setting h4 {
+    font-weight: 600;
+    font-size: 1.7rem;
+    user-select: none;
+}
+
+.form-voucher-item {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.form-voucher-item .form-voucher-item_lable {
+    width: 260px;
+}
+
+.form-voucher-item input {
+    width: 120px;
+    font-size: 1.6rem;
+    outline: none;
+    padding: 6px 12px;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+}

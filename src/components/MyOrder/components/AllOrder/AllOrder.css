@@ -1,0 +1,81 @@
+.all-myorder {
+    background-color: #fff;
+    padding: 24px;
+
+    border-radius: 6px;
+    box-shadow: 0 0 12px var(--color-box-shadow);
+}
+
+.all-myorder-header {
+    height: 100%;
+    background-color: rgba(109, 121, 181, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 12px;
+}
+
+.all-myorder-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.all-myorder-parent-item {
+    border: 2px solid #eee;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+
+.all-myorder-item {
+    display: flex;
+    margin-top: 14px;
+    padding-bottom: 1rem;
+}
+
+.all-myorder-item-name {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 14px;
+    width: 420px;
+
+    color: #6b6b6b;
+}
+
+.all-myorder-item-name span {
+    font-size: 1.6rem;
+}
+
+/* .all-myorder-item-name p {
+    margin-bottom: 12px;
+} */
+
+.all-myorder-item-price {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+
+    padding: 6px 0;
+}
+
+.all-myorder-item-img img {
+    width: 80px;
+}
+
+/* .myorder-cancel {
+    padding: 12px;
+    font-size: 15px;
+    color: #d70018;
+    cursor: pointer;
+} */
+
+.totalPrice-order {
+    text-align: end;
+}
+
+.time-order div,
+.totalPrice-order div {
+    font-weight: 600;
+    color: #555;
+}

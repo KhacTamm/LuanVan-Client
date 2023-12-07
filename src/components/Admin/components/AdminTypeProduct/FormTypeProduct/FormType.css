@@ -1,0 +1,53 @@
+/* --------- create type product */
+.admim-create_type {
+    padding: 1rem 0;
+    max-height: 560px;
+    overflow: auto;
+}
+
+.admim-create_type::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.admim-create_type::-webkit-scrollbar {
+    width: 7px;
+}
+
+.admim-create_type::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.admim-create_type > span {
+    display: flex;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    font-weight: 600;
+    color: #6b6b6b;
+}
+
+.admim-create_type form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-menu-firm-item-delete {
+    position: absolute;
+    top: 0;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background: var(--color-primary-background);
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.update-filter .filter-menu-firm {
+    background: white;
+    margin: 0 0.5rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+}
+.admim-create_type .admin-create {
+    padding: 0px 0 10px 0;
+}

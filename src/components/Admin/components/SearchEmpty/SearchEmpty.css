@@ -1,0 +1,26 @@
+.admin-search-empty {
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-search-empty_img {
+    width: 380px;
+}
+
+.admin-search-empty_title {
+    font-size: 2.2rem;
+    color: var(--color-primary-background);
+}
+
+.admin-search-empty_btn {
+    margin-top: 16px;
+    padding: 12px 10px;
+    border-radius: 6px;
+    background-color: var(--color-primary-background);
+    color: #fff;
+    border: none;
+    outline: none;
+}

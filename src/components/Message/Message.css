@@ -1,0 +1,47 @@
+.ant-message-notice .ant-message-notice-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    box-shadow: none;
+}
+
+.custom-class .ant-message-custom-content.ant-message-success,
+.custom-class .ant-message-custom-content.ant-message-error {
+    padding: 0 12px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 420px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+.custom-class .ant-message-custom-content.ant-message-success span,
+.custom-class .ant-message-custom-content.ant-message-error span {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 6px;
+}
+
+.custom-class .ant-message-custom-content.ant-message-success svg,
+.custom-class .ant-message-custom-content.ant-message-error svg {
+    font-size: 6rem;
+    margin-right: 4px;
+}
+
+/* ---------------------------------------------Success---------------------------------------------------------- */
+
+.custom-class .ant-message-custom-content.ant-message-success svg {
+    color: #00cc00;
+}
+
+/* ---------------------------------------------Fail---------------------------------------------------------- */
+.custom-class .ant-message-custom-content.ant-message-error svg {
+    color: var(--color-primary-background);
+}

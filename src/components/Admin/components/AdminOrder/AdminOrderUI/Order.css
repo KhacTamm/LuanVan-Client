@@ -1,0 +1,271 @@
+.order-info-address_item {
+    display: flex;
+}
+.order-info-address_item p {
+    width: 120px;
+    padding: 2px 0;
+    color: #555454;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.layout__content-main .order {
+    margin-top: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.order > span {
+    display: flex;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6b6b6b;
+}
+.order-list {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+}
+.all-order {
+    margin: 12px 0;
+    height: 100%;
+    border-radius: 4px;
+    background: white;
+    padding: 0 1rem;
+    box-sizing: none;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.order-list-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-list-items_in4 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.order-list-items_in4_item {
+    background-color: rgba(237, 237, 237, 0.6);
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.order-list-items_in4_item:not(:last-child) {
+    margin-right: 18px;
+}
+
+.order-list-items_in4_item h4,
+.order-items h4 {
+    font-size: 1.65rem;
+    font-weight: 600;
+    color: var(--color-primary-background);
+    text-transform: capitalize;
+}
+
+.order-items {
+    margin: 12px 0 6px 0;
+    padding: 12px;
+    width: 100%;
+}
+
+.order-items-item {
+    flex-grow: 1;
+    padding: 12px 0;
+}
+
+.inf {
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    margin: 12px 0;
+}
+
+.order-items-item .qty,
+.order-items-item .time,
+.order-items-item .price {
+    width: 20%;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: #6b6b6b;
+    text-align: center;
+}
+
+.order-items-item .name {
+    width: 40%;
+    /* margin: 0 20px; */
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: #6b6b6b;
+}
+
+.order-list-items img {
+    width: 80px;
+    margin-right: 24px;
+}
+
+.toatalPrice {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    display: flex;
+    padding: 1rem 0;
+    color: var(--color-primary-background);
+}
+
+.all-myorder-item-totalprice {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.all-myorder-item-totalprice span {
+    font-size: 1.6rem;
+    color: #555454;
+}
+
+.all-myorder-item-totalprice strong {
+    font-size: 1.8rem;
+    color: #d70018;
+}
+
+.order-info {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem;
+    width: 280px;
+}
+
+.order-info-address {
+    text-align: left;
+    line-height: 2.8rem;
+}
+
+.order-info-address b {
+    color: #6b6b6b;
+}
+
+.order-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: capitalize;
+}
+
+.order-bottom .cancel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-button {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.order-button button {
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.order-button .shipping {
+    background: linear-gradient(to bottom, rgb(136, 151, 221), rgb(109, 121, 181));
+    box-shadow: rgba(109, 121, 181, 0.4) 0px 4px 14px 0px;
+    color: white;
+    padding: 8px 12px;
+}
+.order-button .paid {
+    background: linear-gradient(to bottom, rgb(136, 151, 221), rgb(109, 121, 181));
+    color: white;
+}
+.order-button .delete {
+    background: #d70018;
+    color: white;
+}
+
+.order-status {
+    font-size: 1.8rem;
+    padding-left: 8px;
+    color: var(--color-primary-background);
+    font-weight: 700;
+}
+
+.order-menu {
+    display: flex;
+    padding: 0rem 1rem;
+    margin-bottom: 1rem;
+}
+.order-menu a {
+    position: relative;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    color: var(--color-primary-background);
+    background: white;
+    border: 1px solid #1890ff;
+}
+.order-menu a:hover {
+    color: white;
+    background: linear-gradient(to bottom, rgb(136, 151, 221), rgb(109, 121, 181));
+    transition: 0.3s;
+}
+.order-pendding-new,
+.order-shipping-new {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+
+    background: linear-gradient(to bottom, rgb(136, 151, 221), rgb(109, 121, 181));
+    color: white;
+}
+
+.order-payment-check {
+    font-size: 1.8rem;
+    padding-left: 8px;
+    color: var(--color-primary-background);
+    font-weight: 700;
+}
+
+.menu_order-admin {
+    width: 100%;
+    margin-top: 12px;
+    display: inline-flex;
+}
+
+.all-order_admin {
+    margin-top: 12px;
+    max-height: 480px;
+    padding: 0 8px;
+
+    overflow: auto;
+    border-radius: 6px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.all-order_admin::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.all-order_admin::-webkit-scrollbar {
+    width: 7px;
+}
+
+.all-order_admin::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--color-primary-background);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}

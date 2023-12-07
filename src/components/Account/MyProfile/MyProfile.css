@@ -1,0 +1,279 @@
+from {
+    align-items: center;
+}
+
+.account_user_card .row {
+    padding: 6px 0px 24px 0px;
+    justify-content: space-between;
+}
+
+.account_title span {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.account_items {
+    margin: auto;
+}
+
+.account_item {
+    /* display: flex;
+    align-items: center; */
+    margin-bottom: 24px;
+}
+
+.account_item h4 {
+    font-weight: 600;
+}
+
+.account-input {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid rgb(153, 153, 153);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account_items input,
+select {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    border-radius: 6px;
+}
+
+.pass {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.noneSelect {
+    -webkit-user-select: none;
+}
+
+/* .btn_account {
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: linear-gradient(to bottom, rgb(136, 151, 221), rgb(109, 121, 181));
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+} */
+
+.updatePass {
+    margin-left: 12px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-primary-background);
+    background-color: rgb(255, 255, 255);
+}
+
+/* .btn_account:hover {
+    opacity: 0.8;
+}
+
+.btn_account span {
+    color: #fff;
+    font-weight: 500;
+} */
+
+.passChange {
+    display: flex;
+    flex-direction: column;
+}
+
+/*  */
+.account_avatar {
+    padding: 6px 2px 3px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-avatar {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 246, 248);
+    font-size: 1.8rem;
+
+    color: rgb(145, 158, 171);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.avatar-user {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    /* position: 'relative',
+    width: 180,
+    height: 180,
+    '&:hover .changeImg': {
+        visibility: 'visible',
+        opacity: 1,
+        transition: 'all 0.5s ease-in',
+    }, */
+}
+
+.avatar-user img {
+    z-index: 100;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.changeImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+    opacity: 0;
+
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    transition: 'all 0.5s ease-in';
+}
+
+.label_account-icon svg {
+    font-size: 3rem;
+}
+
+.label_account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-user:hover .changeImg {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+
+.label_account-text {
+    font-size: 1.6rem;
+}
+
+.account_avatar-sub {
+    margin-top: 18px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.col-8 {
+    padding-left: 34px;
+}
+
+.address-account-form {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+}
+
+.address-account_province {
+    position: relative;
+    width: 50%;
+    padding: 0 0.5rem 0 0;
+    margin-top: 6px;
+}
+
+.address-account_province button {
+    width: 100%;
+    outline: none;
+    border: 1px solid #eee;
+    font-size: 16px;
+    padding: 8px;
+    background: white;
+    color: var(--color-primary-background);
+    cursor: pointer;
+
+    text-align: left;
+}
+.address-account_province button::after {
+    content: '';
+    border-top: 6px solid var(--color-primary-background);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+
+    position: absolute;
+    right: 1rem;
+    top: 18px;
+}
+.address-account_province .active::after {
+    transform: rotate(180deg);
+}
+
+.select {
+    background: white;
+    position: absolute;
+    top: 110%;
+    min-width: 280px;
+
+    z-index: 11;
+}
+
+.select-list {
+    display: flex;
+    width: 100%;
+    max-height: 190px;
+    overflow-y: scroll;
+
+    z-index: 11;
+    padding: 1rem;
+    border: 1px solid #eee;
+}
+
+.select-list aside {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+    cursor: pointer;
+}
+
+.select-list aside span {
+    width: 50%;
+    background: white;
+    color: #5897fb;
+    text-align: left;
+
+    padding: 6px;
+}
+
+.select-list aside span:hover {
+    background: #5897fb;
+    color: white;
+}
+
+.address-account_province input {
+    margin: 0;
+}
+
+.address-account_province.more {
+    border: 1px solid #eee;
+}

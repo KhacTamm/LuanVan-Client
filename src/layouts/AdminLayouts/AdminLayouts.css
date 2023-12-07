@@ -1,0 +1,28 @@
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.layout__content {
+    margin-left: 300px;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #eee;
+}
+
+.layout__content-container {
+    position: relative;
+    background: #eee;
+    top: 50px;
+    padding: 5px 12px 0px;
+}
+
+.admin-content {
+    background: white;
+    /* max-height: 800px; */
+    color: #6b6b6b;
+    padding: 1rem;
+    margin-top: 6px;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

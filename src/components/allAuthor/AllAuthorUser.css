@@ -1,0 +1,20 @@
+.all-author-user {
+    height: 650px;
+}
+
+.header-filter-all-author {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(214, 219, 231);
+    margin-top: 12px;
+    margin-bottom: 6px;
+    padding: 6px 0;
+    align-items: flex-end;
+}
+
+.all-author-user-list-product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; /* justify-content: space-between; */
+}

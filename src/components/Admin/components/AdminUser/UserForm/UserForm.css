@@ -1,0 +1,340 @@
+.form-admin-create-customer {
+    background-color: #fff;
+}
+
+from {
+    align-items: center;
+}
+
+.account_card .row {
+    padding: 6px 0px 12px 0px;
+    justify-content: space-between;
+}
+
+.account_title span {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.account_item-admin {
+    margin-bottom: 20px;
+}
+
+.account_item-admin h4 {
+    font-size: 1.6rem;
+    padding-bottom: 6px;
+    font-weight: 600;
+}
+
+.account-input {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid rgb(153, 153, 153);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account_items-admin input,
+select {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    border-radius: 6px;
+}
+
+.pass {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.noneSelect {
+    -webkit-user-select: none;
+}
+
+.btn_account {
+    padding: 12px 24px;
+    margin: 4px 0 8px 0;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: linear-gradient(to bottom, rgb(136, 151, 221), rgb(109, 121, 181));
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+/* .updatePass {
+    margin-left: 12px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: rgb(11, 116, 229);
+    background-color: rgb(255, 255, 255);
+} */
+
+.btn_account:hover {
+    opacity: 0.9;
+}
+
+.btn_account span {
+    color: #fff;
+    font-weight: 500;
+}
+
+.passChange {
+    display: flex;
+    flex-direction: column;
+}
+
+/*  */
+.account_avatar {
+    padding: 6px 2px 3px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-avatar {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 246, 248);
+    font-size: 1.8rem;
+
+    color: rgb(145, 158, 171);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.avatar-user {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    /* position: 'relative',
+    width: 180,
+    height: 180,
+    '&:hover .changeImg': {
+        visibility: 'visible',
+        opacity: 1,
+        transition: 'all 0.5s ease-in',
+    }, */
+}
+
+.avatar-user img {
+    z-index: 100;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.changeImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    visibility: hidden;
+    opacity: 0;
+
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    transition: 'all 0.5s ease-in';
+}
+
+.label_account-icon svg {
+    font-size: 3rem;
+}
+
+.label_account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-user:hover .changeImg {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+
+.label_account-text {
+    font-size: 1.6rem;
+}
+
+.account_avatar-sub {
+    margin-top: 18px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.col-8 {
+    padding-left: 34px;
+}
+
+.address-account-form {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+}
+
+.address-account_province {
+    position: relative;
+    width: 50%;
+    padding: 0 0.5rem 0 0;
+    margin-top: 6px;
+}
+
+.address-account_province button {
+    width: 100%;
+    outline: none;
+    border: 1px solid #eee;
+    font-size: 16px;
+    padding: 8px;
+    background: white;
+    color: var(--color-primary-background);
+    cursor: pointer;
+
+    text-align: left;
+}
+.address-account_province button::after {
+    content: '';
+    border-top: 6px solid var(--color-primary-background);
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+
+    position: absolute;
+    right: 1rem;
+    top: 18px;
+}
+.address-account_province .active::after {
+    transform: rotate(180deg);
+}
+
+.select {
+    background: white;
+    position: absolute;
+    top: 110%;
+    min-width: 280px;
+
+    z-index: 11;
+}
+
+.select-list {
+    display: flex;
+    width: 100%;
+    max-height: 190px;
+    overflow-y: scroll;
+
+    z-index: 11;
+    padding: 1rem;
+    border: 1px solid #eee;
+}
+
+.select-list aside {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+    cursor: pointer;
+}
+
+.select-list aside span {
+    width: 50%;
+    background: white;
+    color: #5897fb;
+    text-align: left;
+
+    padding: 6px;
+}
+
+.select-list aside span:hover {
+    background: #5897fb;
+    color: white;
+}
+
+.address-account_province input {
+    margin: 0;
+}
+
+.address-account_province.more {
+    border: 1px solid #eee;
+}
+
+.address-customer {
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid var(--color-primary-background);
+    color: var(--color-primary-background);
+
+    padding: 12px;
+    margin: 25px 0 5px 0;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: rgba(109, 121, 181, 0.4) 0px 4px 12px;
+}
+
+.address-customer:hover {
+    background-color: rgba(109, 121, 181, 0.05);
+}
+
+/* ---------------------------------------------Modal---------------------------------------------------------- */
+.modal-addaddress-customer {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-primary-background);
+    color: #fff;
+    padding: 18px 12px;
+    margin-left: 12px;
+}
+
+.modal-addaddress-customer svg {
+    margin-right: 4px;
+}
+
+.modal-addaddress-customer:not(:disabled):hover {
+    color: #fff;
+    opacity: 0.9;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+.list-address-customer {
+    max-height: 540px;
+    padding: 12px;
+    overflow: auto;
+}
+
+.list-address-customer::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.list-address-customer::-webkit-scrollbar {
+    width: 8px;
+}
+
+.list-address-customer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--color-primary-background);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}

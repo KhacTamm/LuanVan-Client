@@ -1,0 +1,28 @@
+.item-input {
+    width: 100%;
+    margin: 4px 0;
+}
+
+.item-input label {
+    margin: 0 1rem;
+    font-weight: 600;
+    font-size: 1.7rem;
+    user-select: none;
+}
+
+.input-admin {
+    height: 50px;
+    outline: none;
+    border: 1px solid var(--color-primary-background);
+    border-radius: 6px;
+    padding: 0.8rem 0.5rem;
+    margin: 1rem;
+    font-size: 15px;
+}
+
+.input-admin input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}

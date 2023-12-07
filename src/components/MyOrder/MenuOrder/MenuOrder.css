@@ -1,0 +1,80 @@
+.myorder-menu-customer {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-bottom: 12px; */
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 24px;
+
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 12px var(--color-box-shadow);
+
+    /* position: fixed; */
+    /* 
+    width: 100%;
+    margin-bottom: 12px;
+    display: flex;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 200px;
+    z-index: 9999;
+    background: #fff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px; */
+    /* background: white;
+    box-shadow: 0 0 12px var(--color-box-shadow); */
+}
+
+.myorder-menu-customer-item {
+    position: relative;
+    font-size: 1.7rem;
+    padding: 2px 20px;
+    color: #000;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+}
+
+.myorder-menu-customer-item.active {
+    color: var(--color-text-active);
+    border-bottom: 3px solid var(--color-text-active);
+}
+
+.myorder-menu-customer-item a {
+    padding: 12px;
+    color: #000;
+    display: block;
+}
+
+.myorder-menu-customer-item.active a {
+    color: var(--color-text-active);
+}
+
+.myorder-menu-customer-item:hover {
+    transition: 0.3s;
+}
+
+.myorder-menu-customer-item:hover a {
+    transition: 0.3s;
+}
+
+/* .myorder-menu-customer-item-newPendding,
+.myorder-menu-customer-item-newShipping {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: var(--color-second-background);
+    color: #000;
+
+    text-align: center;
+    line-height: 30px;
+} */

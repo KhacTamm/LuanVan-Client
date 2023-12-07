@@ -1,0 +1,19 @@
+.myorder-cancel {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.myorder-cancel .cancelbtn {
+    margin-left: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: linear-gradient(to bottom, rgb(136, 151, 221), rgb(109, 121, 181));
+    box-shadow: rgba(109, 121, 181, 0.4) 0px 4px 14px 0px;
+    color: white;
+    padding: 8px 12px;
+}

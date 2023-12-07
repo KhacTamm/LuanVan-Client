@@ -1,0 +1,20 @@
+.emptyOrder {
+    min-height: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emptyOrder img {
+    height: 140px;
+    width: 140px;
+}
+
+.emptyOrder .emptyOrder_text {
+    margin: 20px 0 0;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+}

@@ -1,0 +1,86 @@
+/* .container {
+    position: relative;
+} */
+
+.headerOnly {
+    position: relative;
+    height: 705px;
+    background-image: url('../../../src/assets/images/login/book-background-resize3_1.jpg');
+    background-size: 100% 705px;
+}
+
+.subHeader {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.subHeader_logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.subHeader_logo img {
+    width: 250px;
+    margin-right: 6px;
+}
+
+.subHeader_logo h1 {
+    color: #000;
+    margin: 0;
+    font-weight: 800;
+    font-size: 3.2rem;
+}
+
+.titleType {
+    position: relative;
+    padding-left: 40px;
+    font-size: 2.8rem;
+    line-height: 4rem;
+    color: #000;
+}
+
+.titleType::before {
+    content: '';
+    position: absolute;
+    height: 40px;
+    border-right: 2px solid #000;
+    left: 12px;
+}
+
+/* .headerOnly_wrap {
+    position: relative;
+    background-size: cover;
+    background-position: top;
+} */
+
+.headerOnly_cont {
+    position: absolute;
+    right: 70%;
+    /* transform: translateX(-80%); */
+    margin: 50px 0;
+}
+
+.headerOnly_inner {
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+.login-page {
+    position: absolute;
+    width: 550px;
+    height: 480px;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -5%);
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 8px;
+    background-color: rgba(214, 219, 231, 0.5);
+}

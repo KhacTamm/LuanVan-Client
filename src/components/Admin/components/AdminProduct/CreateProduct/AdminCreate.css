@@ -1,0 +1,220 @@
+.admin-create {
+    background: white;
+}
+
+.header-admin a {
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 2.6rem;
+}
+
+.admin-create-product {
+    height: 560px;
+    /* padding: 1rem 0; */
+    overflow: auto;
+}
+
+.admin-create-product::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.admin-create-product::-webkit-scrollbar {
+    width: 0;
+}
+
+.admin-create-product::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.admin-create-productinput,
+select {
+    /* margin-bottom: 1rem; */
+    padding: 0.5rem 1rem;
+}
+
+.select-type {
+    margin-bottom: 1rem;
+}
+
+/* .admin-create-product button {
+    background: white;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0.7rem 5rem;
+    border: 1px solid #333;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.admin-create-product button:hover {
+    background: var(--color-primary-background);
+    border: 1px solid transparent;
+    color: white;
+    transition: 0.3s;
+} */
+
+.search-admin-create-product {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+    margin: 8px 0;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid var(--color-primary-background);
+    background-color: #fff;
+}
+
+/* .search-admin-create-product input {
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    outline: none;
+
+    background-color: transparent;
+}
+
+.search-admin-create-product span {
+    font-size: 2.3rem;
+    padding: 1rem;
+} */
+
+.search-admin button {
+    width: 100px;
+    margin: 2px;
+    padding: 10px 0px;
+    border-radius: 6px;
+    font-size: 1.4rem;
+
+    display: inline-block;
+    border: none;
+    color: #fff;
+
+    background-color: var(--color-btn);
+    outline: none;
+
+    font-weight: 600;
+}
+
+.admin-create-product .filter-menu-firm {
+    margin-top: 0;
+    margin: 0 10px;
+    padding-right: 6px;
+    overflow: auto;
+}
+
+.filter-menu-firm-item-type {
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.filter-menu-firm-item-type.visible {
+    padding: 0.8rem 0.5rem;
+    user-select: none;
+}
+
+.radio {
+    border: 1px solid var(--color-primary-background);
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.filter-menu-firm-item-type.active .radio {
+    background-color: var(--color-primary-background);
+}
+
+.filter-menu-firm-item:not(:last-child) {
+    margin-right: 12px;
+}
+
+.admin_price {
+    text-align: center;
+    width: 180px;
+}
+
+.filter-menu-firm-brand {
+    display: flex;
+    margin: 12px 0;
+    flex-wrap: wrap;
+}
+
+.filter-menu-firm-item-brand {
+    width: 100px;
+    background-color: #efeff2;
+    padding: 3px 8px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+.filter-menu-firm-item-brand .img_brand {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.filter-menu-firm-item-brand:not(:last-child) {
+    margin-right: 12px;
+}
+
+.filter-menu-firm-item-brand.active {
+    border: 2px solid rgba(109, 121, 181, 0.6);
+    box-shadow: rgba(109, 121, 181, 0.4) 0px 4px 14px 0px;
+}
+
+.second-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tox:not([dir='rtl']) {
+    direction: ltr;
+    text-align: left;
+    margin: 10px;
+}
+
+.search-admin_create_list {
+    /* height: 80px; */
+    min-height: 20px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.search-admin_create_list::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.search-admin_create_list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.search-admin_create_list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--color-primary-background);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover
+    .ant-checkbox-checked:not(.ant-checkbox-disabled)
+    .ant-checkbox-inner {
+    background-color: var(--color-primary-background);
+    border-color: var(--color-primary-background);
+}
+
+.custom-class-create .ant-message-custom-content.ant-message-error {
+    background: #ffffff;
+    padding: 2px 24px;
+    border-radius: 24px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
